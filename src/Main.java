@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         BankAccount bankAccount = new BankAccount(15000);
-        /*try {
+        try {
             bankAccount.Deposit(15000 );
         }catch (LimitException e){
             e.printStackTrace();
@@ -22,7 +22,7 @@ public class Main {
                     e.printStackTrace();
                 }
             }
-        }*/
+    
         try {
             while (true){
                 bankAccount.withDrew(6000);
